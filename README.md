@@ -1,31 +1,60 @@
+# Intro til Servomotorer
 
-> Open this page at [https://broccolisurprise.github.io/smarthus---intro-til-servoer/](https://broccolisurprise.github.io/smarthus---intro-til-servoer/)
+```template
+input.onButtonPressed(Button.A, function () {
+    pins.servoWritePin(AnalogPin.P1, 0)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P1, 90)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P1, 180)
+})
 
-## Use as Extension
+```
 
-This repository can be added as an **extension** in MakeCode.
+## Steg 1 - Hva er en Servomotor? @showdialog
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/broccolisurprise/smarthus---intro-til-servoer** and import
 
-## Edit this project ![Build status badge](https://github.com/broccolisurprise/smarthus---intro-til-servoer/workflows/MakeCode/badge.svg)
+En servomotor er en elektrisk motor som kan styres veldig presist.
 
-To edit this repository in MakeCode.
+Bilde her
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/broccolisurprise/smarthus---intro-til-servoer** and click import
+## Steg 2 - NB OBS ARGH IKKE DREP MICROBITEN @showdialog
 
-## Blocks preview
+**Viktig! Les dette før du begynner**  
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+Utstyret kan bli ødelagt om ledningene sklir eller kortslutter, så vær **helt** sikker på at det ikke er strøm i systemet når du skal koble til eller fra noe.
 
-![A rendered view of the blocks](https://github.com/broccolisurprise/smarthus---intro-til-servoer/raw/master/.github/makecode/blocks.png)
+## Steg 2.5 - Hvordan koble servo og adapter @showdialog
 
-#### Metadata (used for search, rendering)
+Pass på at du kobler ledningen og adapteren sammen riktig vei, samme farge på samme side:
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+(Bilde her)
+
+## Steg 3 - Hvordan koble på servo @showdialog
+
+![bilde av ledninger koblet på microbit](https://d14xnrffmhx4ml.cloudfront.net/1660675040/smarthus-veiledning-neopixel-ledninger.jpg)
+(FEIL BILDE, skal byttes)
+Fra høyre til venstre skal det være svart på **GND**, rød på **3V**, og så gul på **1**.
+
+## Steg 5 -  Last ned koden
+
+Last ned eksempel-programmet til micro:biten og sjekk om det blir liv i servomotoren når du trykker på A.
+
+## Steg 6 - Hurra!
+
+Hvis det ble liv: Hurra! Ser du sammenhengen mellom tallene og veien motoren beveger seg? 
+Prøv å endre eksempel-programmet og se hvordan motoren tolker ulike tall. 
+
+## Steg 7 - Samme kommando, ulik resultat
+
+Vi har to ulike modeller servo-motorer, 180-grader og 360-grader (markert med RØD TEIP).
+
+Sjekk hvordan de to modellene oppfører seg ulikt med samme kode. Hvordan tolker 360-graderen "0" grader? Eller "180"?
+
+## Steg 8 - Mer info @showdialog
+
+Godt jobbet! Du har nå lært det grunnleggende om programmering av servo-motorer. Nå kan du trykke "Finish/Ferdig" for å avslutte denne veiledningen.
+
+## Ferdig
+
+Trykk på Finish/Ferdig til høyre.
