@@ -16,7 +16,7 @@ input.onButtonPressed(Button.A, function () {
 
 En servomotor er en elektrisk motor som kan styres veldig presist.
 
-Bilde her
+![bilde av FS90 servomotor](https://d14xnrffmhx4ml.cloudfront.net/1660679072/smarthus-veiledning-microbit-microservo-180-degrees.jpg)
 
 ## Steg 2 - NB OBS ARGH IKKE DREP MICROBITEN @showdialog
 
@@ -28,12 +28,13 @@ Utstyret kan bli ødelagt om ledningene sklir eller kortslutter, så vær **helt
 
 Pass på at du kobler ledningen og adapteren sammen riktig vei, samme farge på samme side:
 
-(Bilde her)
+![bilde av servomotor og adapter](https://d14xnrffmhx4ml.cloudfront.net/1661359252/smarthus-veiledning-servoadapterkobling.jpg)
+
 
 ## Steg 3 - Hvordan koble på servo @showdialog
 
-![bilde av ledninger koblet på microbit](https://d14xnrffmhx4ml.cloudfront.net/1660675040/smarthus-veiledning-neopixel-ledninger.jpg)
-(FEIL BILDE, skal byttes)
+![bilde av ledninger koblet på microbit](https://d14xnrffmhx4ml.cloudfront.net/1661359253/smarthus-veiledning-servokobling.jpg)
+
 Fra høyre til venstre skal det være svart på **GND**, rød på **3V**, og så gul på **1**.
 
 ## Steg 5 -  Last ned koden
