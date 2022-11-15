@@ -37,6 +37,8 @@ Pass på at du kobler ledningen og adapteren sammen riktig vei, samme farge på 
 
 Fra høyre til venstre skal det være svart på **GND**, rød på **3V**, og så gul på **1**.
 
+Fest krokodilleklypene inni hullene slik at de ikke sklir.
+
 ## Steg 5 -  Last ned koden
 
 Last ned eksempel-programmet til micro:biten og sjekk om det blir liv i servomotoren når du trykker på A.
